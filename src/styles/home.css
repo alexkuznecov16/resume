@@ -487,6 +487,10 @@ a {
 @media (max-width: 900px) {
 	.header {
 		padding: 24px;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
 	}
 
 	.nav {
