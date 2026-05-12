@@ -10,7 +10,7 @@ export default function HomePage() {
 
 			{/* Header */}
 			<header className='header'>
-				<div className='logo'>Alexander.</div>
+				<div className='logo'>Aleksandrs.</div>
 
 				<nav className='nav'>
 					<a href='#about'>About</a>
@@ -68,6 +68,10 @@ export default function HomePage() {
 				</div>
 
 				<div className='hero-socials'>
+					<Link href='https://t.me/kznws111' target='_blank'>
+						Telegram
+					</Link>
+
 					<Link href='https://github.com/alexkuznecov16' target='_blank'>
 						GitHub
 					</Link>
@@ -155,7 +159,6 @@ export default function HomePage() {
 				</div>
 			</section>
 
-			{/* Projects */}
 			{/* Projects */}
 			<section className='section' id='projects'>
 				<div className='section-header'>
@@ -398,6 +401,10 @@ export default function HomePage() {
 
 						<Link href='https://github.com/alexkuznecov16' target='_blank'>
 							GitHub
+						</Link>
+
+						<Link href='https://t.me/kznws111' target='_blank'>
+							Telegram
 						</Link>
 
 						<Link href='https://www.linkedin.com/in/alexander-kuznecov/' target='_blank'>
