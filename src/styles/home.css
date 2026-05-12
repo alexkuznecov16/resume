@@ -497,6 +497,10 @@ a {
 		display: none;
 	}
 
+	.status-badge {
+		margin-top: 10px;
+	}
+
 	.hero,
 	.section {
 		padding-left: 24px;
